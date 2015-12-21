@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 # Scrapy settings for ipvoidscraper project
 #
 # For simplicity, this file contains only settings considered important or
@@ -16,10 +14,10 @@ NEWSPIDER_MODULE = 'ipvoidscraper.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'ipvoidscraper (+http://www.yourdomain.com)'
+USER_AGENT = 'suryamp (+http://www.manchikanti.me)'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-#CONCURRENT_REQUESTS=32
+CONCURRENT_REQUESTS=32
 
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
